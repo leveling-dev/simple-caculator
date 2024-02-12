@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <Title>Final Calculator</Title>
+   <link rel="stylesheet" href="styles/10-final.css">
+
+  </head>
+  <body>
+    <p class="js-display display"></p>
+    <p>
+      <button class="dual-size-button del-button" onclick="clearCalc();">C</button>
+      <button class="del-button" onclick="backSpace();">⇦</button>
+      <button class="operator-button" onclick="addCalculation(' / ');">÷</button>
+    </p>
+    <p>
+      <button onclick="addCalculation('7');">7</button>
+      <button onclick="addCalculation('8');">8</button>
+      <button onclick="addCalculation('9');">9</button>
+      <button class="operator-button" onclick="addCalculation(' * ');">×</button>
+    </p>
+    <p>
+      <button onclick="addCalculation('4');">4</button>
+      <button onclick="addCalculation('5');">5</button>
+      <button onclick="addCalculation('6');">6</button>
+      <button class="operator-button" onclick="addCalculation(' - ');">−</button>
+    </p>
+    <p>
+      <button onclick="addCalculation('1');">1</button>
+      <button onclick="addCalculation('2');">2</button>
+      <button onclick="addCalculation('3');">3</button>
+      <button class="operator-button" onclick="addCalculation(' + ');">+</button>
+    </p>
+    <p>
+      <button class="dual-size-button" onclick="addCalculation('0');">0</button>
+      <button onclick="addCalculation('.');">.</button>
+      <button class="operator-button" onclick="result();">=</button>
+    </p>
+    <script src="scripts/10-final.js"></script>
+  </body>
+</html>
